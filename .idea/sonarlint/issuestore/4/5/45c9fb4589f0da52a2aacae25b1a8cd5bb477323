@@ -1,0 +1,9 @@
+
+
+java:S5998"LRefactor this repetition that can lead to a stack overflow for large inputs.(·Ğğ£úÿÿÿÿJ$13dac2f5-5cd7-4f70-adb6-6759a49c3c46
+m
+java:S5855",Remove or rework this redundant alternative.(ßà€üÿÿÿÿJ$d5e67d69-17fc-4b54-aa4b-6d02edc8b9db
+•
+java:S5843"TSimplify this regular expression to reduce its complexity from 27 to the 20 allowed.(·Ğğ£úÿÿÿÿJ$be99dd67-124c-4cb2-9240-aac1701400f5
+•
+java:S5843"TSimplify this regular expression to reduce its complexity from 29 to the 20 allowed.(ßà€üÿÿÿÿJ$58267572-4f05-4a69-87f7-ce04f7f714d3

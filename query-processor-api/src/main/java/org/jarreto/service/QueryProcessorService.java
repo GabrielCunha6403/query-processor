@@ -23,7 +23,7 @@ public class QueryProcessorService {
         query = query.replaceAll("--.*", "");
 
         // Valida separadores básicos
-        if (!query.toLowerCase().matches("^\\s*(select|with).*", query)) {
+        if (!query.toLowerCase().matches("^\\s*(select|with).*")) {
             return false;
         }
 
