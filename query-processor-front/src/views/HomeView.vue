@@ -15,6 +15,7 @@ import { defineComponent } from "vue";
 import Button from "primevue/button";
 import Textarea from "primevue/textarea";
 import Editor from "primevue/editor";
+import { QS } from "@/https";
 
 export default defineComponent({
   name: "QueryProcessor",
@@ -35,7 +36,10 @@ export default defineComponent({
     },
     run() {
       this.output = 'oioioioi';
-    }
+      QS.post('/processor', JSON.stringify(this.editor)).then(res => {
+        console.log(res);
+      });
+    },
   }
 });
 
